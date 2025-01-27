@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
+    vendor/nothing/Aerodactyl/proprietary/vendor/etc/aac_richtap.config:$(TARGET_COPY_OUT_VENDOR)/etc/aac_richtap.config \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/apdb/APDB_MT6886___W2439:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6886___W2439 \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/apdb/APDB_MT6886___W2439_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6886___W2439_ENUM \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
@@ -494,6 +495,7 @@ PRODUCT_PACKAGES += \
     libaaa_aaautil \
     libaaa_afassist_V2 \
     libaaa_gma \
+    libaacvibrator \
     libaal_key \
     libaal_mtk \
     libadpcmdec_mtk \
