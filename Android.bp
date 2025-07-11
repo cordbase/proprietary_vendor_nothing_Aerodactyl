@@ -1295,41 +1295,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider@2.6-impl-mediatek",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/mt6886/android.hardware.camera.provider@2.6-impl-mediatek.so",
-            ],
-            shared_libs: [
-                "libmtkcam_hal_hidl_provider",
-                "libmtkcam_hal_hidl_device",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "android.hardware.camera.common@1.0",
-                "android.hardware.camera.provider@2.4",
-                "android.hardware.camera.provider@2.5",
-                "android.hardware.camera.provider@2.6",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw/mt6886",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.graphics.allocator@4.0-impl-mediatek",
     owner: "nothing",
     strip: {
@@ -19032,173 +18997,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmtkcam_hal_hidl_common",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6886/libmtkcam_hal_hidl_common.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libmtkcam_ulog",
-                "android.hardware.camera.common@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6886",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkcam_hal_hidl_device",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6886/libmtkcam_hal_hidl_device.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libfmq",
-                "android.hardware.camera.device@3.2",
-                "android.hardware.camera.device@3.3",
-                "android.hardware.camera.device@3.4",
-                "android.hardware.camera.device@3.5",
-                "android.hardware.camera.device@3.6",
-                "libcamera_metadata",
-                "libmtkcam_ulog",
-                "libmtkcam_stdutils",
-                "libmtkcam_debugutils",
-                "libmtkcam_hal_hidl_common",
-                "libmtkcam_hal_hidl_utils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6886",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkcam_hal_hidl_provider",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6886/libmtkcam_hal_hidl_provider.so",
-            ],
-            shared_libs: [
-                "android.hardware.camera.provider@2.4",
-                "android.hardware.camera.provider@2.5",
-                "android.hardware.camera.provider@2.6",
-                "android.hardware.camera.device@3.6",
-                "android.hardware.graphics.allocator@4.0",
-                "android.hardware.graphics.mapper@4.0",
-                "android.hardware.graphics.common@1.2",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libcamera_metadata",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libfmq",
-                "libmtkcam_hal_android_provider",
-                "libmtkcam_hal_hidl_common",
-                "libmtkcam_hal_hidl_device",
-                "libmtkcam_ulog",
-                "libmtkcam_metaconv",
-                "libmtkcam_stdutils",
-                "libui",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6886",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtkcam_hal_hidl_utils",
-    owner: "nothing",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6886/libmtkcam_hal_hidl_utils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libhidltransport",
-                "libfmq",
-                "android.hardware.camera.device@3.2",
-                "android.hardware.camera.device@3.3",
-                "android.hardware.camera.device@3.4",
-                "android.hardware.camera.device@3.5",
-                "android.hardware.camera.device@3.6",
-                "libmtkcam_stdutils",
-                "libmtkcam_imgbuf_v2",
-                "libmtkcam_grallocutils",
-                "libmtkcam_hwutils",
-                "libmtkcam_sysutils",
-                "libmtkcam_metadata",
-                "libmtkcam_modulehelper",
-                "libmtkcam_streamutils",
-                "libcamera_metadata",
-                "libmtkcam_ulog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6886",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmtkcam_hwnode",
     owner: "nothing",
     strip: {
@@ -26907,13 +26705,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so",
-    soc_specific: true,
-    installed_location: "lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so",
-    symlink_target: "/vendor/lib64/hw/mt6886/android.hardware.camera.provider@2.6-impl-mediatek.so",
-}
-
-install_symlink {
     name: "vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so",
     soc_specific: true,
     installed_location: "lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so",
@@ -28864,34 +28655,6 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libmtkcam_hal_custom_utils.so",
     symlink_target: "/vendor/lib64/mt6886/libmtkcam_hal_custom_utils.so",
-}
-
-install_symlink {
-    name: "vendor_lib64_libmtkcam_hal_hidl_common_so",
-    soc_specific: true,
-    installed_location: "lib64/libmtkcam_hal_hidl_common.so",
-    symlink_target: "/vendor/lib64/mt6886/libmtkcam_hal_hidl_common.so",
-}
-
-install_symlink {
-    name: "vendor_lib64_libmtkcam_hal_hidl_device_so",
-    soc_specific: true,
-    installed_location: "lib64/libmtkcam_hal_hidl_device.so",
-    symlink_target: "/vendor/lib64/mt6886/libmtkcam_hal_hidl_device.so",
-}
-
-install_symlink {
-    name: "vendor_lib64_libmtkcam_hal_hidl_provider_so",
-    soc_specific: true,
-    installed_location: "lib64/libmtkcam_hal_hidl_provider.so",
-    symlink_target: "/vendor/lib64/mt6886/libmtkcam_hal_hidl_provider.so",
-}
-
-install_symlink {
-    name: "vendor_lib64_libmtkcam_hal_hidl_utils_so",
-    soc_specific: true,
-    installed_location: "lib64/libmtkcam_hal_hidl_utils.so",
-    symlink_target: "/vendor/lib64/mt6886/libmtkcam_hal_hidl_utils.so",
 }
 
 install_symlink {

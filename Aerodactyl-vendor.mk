@@ -462,7 +462,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.mtk_common \
     libMcGatekeeper \
     libSoftGatekeeper \
-    android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
     gralloc.common \
@@ -1026,10 +1025,6 @@ PRODUCT_PACKAGES += \
     libmtkcam_hal_custom_provider \
     libmtkcam_hal_custom_state \
     libmtkcam_hal_custom_utils \
-    libmtkcam_hal_hidl_common \
-    libmtkcam_hal_hidl_device \
-    libmtkcam_hal_hidl_provider \
-    libmtkcam_hal_hidl_utils \
     libmtkcam_hwnode \
     libmtkcam_hwutils \
     libmtkcam_hwutils_android \
@@ -1323,7 +1318,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_audio_r_submix_mt6886_so \
     vendor_lib64_hw_gatekeeper_trustonic_so \
     vendor_lib64_hw_gatekeeper_default_so \
-    vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so \
     vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
     vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
     vendor_lib64_hw_gralloc_common_so \
@@ -1603,10 +1597,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmtkcam_hal_custom_provider_so \
     vendor_lib64_libmtkcam_hal_custom_state_so \
     vendor_lib64_libmtkcam_hal_custom_utils_so \
-    vendor_lib64_libmtkcam_hal_hidl_common_so \
-    vendor_lib64_libmtkcam_hal_hidl_device_so \
-    vendor_lib64_libmtkcam_hal_hidl_provider_so \
-    vendor_lib64_libmtkcam_hal_hidl_utils_so \
     vendor_lib64_libmtkcam_hwnode_so \
     vendor_lib64_libmtkcam_hwutils_so \
     vendor_lib64_libmtkcam_hwutils_android_so \
