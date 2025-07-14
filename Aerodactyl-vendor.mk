@@ -1102,8 +1102,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys-V1-ndk \
     vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.audio@6.1 \
-    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
     vendor.mediatek.hardware.bluetooth.audio-impl \
