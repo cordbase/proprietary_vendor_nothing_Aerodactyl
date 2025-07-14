@@ -200,8 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/cust_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_pq.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/cust_silky_brightness.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_silky_brightness.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
-    vendor/nothing/Aerodactyl/proprietary/vendor/etc/dirac/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/dirac_resource.dar \
-    vendor/nothing/Aerodactyl/proprietary/vendor/etc/dirac/interface.json:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/interface.json \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/displayconfig/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
@@ -584,7 +582,6 @@ PRODUCT_PACKAGES += \
     libcustom_nvram \
     libcvsd_mtk \
     libdecrypt \
-    libdirac \
     libdlrmsc \
     libentropy \
     libentropy_ae \
@@ -1101,7 +1098,6 @@ PRODUCT_PACKAGES += \
     s5kjn1_mipi_raw_tuning \
     s5kjn1front_mipi_raw_IdxMgr \
     s5kjn1front_mipi_raw_tuning \
-    libdiraceffect_NT \
     libspatializer \
     vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys-V1-ndk \
