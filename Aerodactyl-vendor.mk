@@ -7,12 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/product/etc/sysconfig/felica-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/felica-allowlist.xml \
-    vendor/nothing/Aerodactyl/proprietary/system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml \
     vendor/nothing/Aerodactyl/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/nothing/Aerodactyl/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
-    vendor/nothing/Aerodactyl/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
-    vendor/nothing/Aerodactyl/proprietary/system_ext/etc/permissions/privapp-permissions-NTCamera.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-NTCamera.xml \
-    vendor/nothing/Aerodactyl/proprietary/system_ext/etc/permissions/privapp-permissions-NothingExperience.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-NothingExperience.xml \
     vendor/nothing/Aerodactyl/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
     vendor/nothing/Aerodactyl/proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/androidx.camera.extensions.impl.advanced.jar \
     vendor/nothing/Aerodactyl/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6886/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6886/ParameterDB_ae.db \
@@ -420,7 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg
 
 PRODUCT_PACKAGES += \
-    libnelib \
     APUWareApusysAidlServer \
     APUWareUtilsServer \
     com.nothing.node.b2y \
@@ -1107,7 +1102,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.ccap@1.0 \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
-    vendor.mediatek.hardware.camera.isphal@1.0_vendor \
+    vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
@@ -1181,15 +1176,12 @@ PRODUCT_PACKAGES += \
     libimsma_socketwrapper \
     libmtk_vt_service \
     libmtk_vt_wrapper \
-    libmtkisp_metadata_sys \
-    libofflineproc_jni \
     libsignal \
     libsink-mtk \
     libsource \
     libvcodec_cap \
     libvcodec_capenc \
     libvt_avsync \
-    vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
     vendor.mediatek.hardware.videotelephony@1.0 \
@@ -1198,8 +1190,6 @@ PRODUCT_PACKAGES += \
     MobileFeliCaSettingApp \
     MobileFeliCaWebPluginBoot \
     ImsService \
-    NTCamera \
-    NothingExperience \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
