@@ -1188,6 +1188,7 @@ PRODUCT_PACKAGES += \
     MobileFeliCaSettingApp \
     MobileFeliCaWebPluginBoot \
     ImsService \
+    MtkGbaService \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
