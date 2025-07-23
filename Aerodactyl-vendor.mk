@@ -8,9 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/product/etc/sysconfig/felica-allowlist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/felica-allowlist.xml \
     vendor/nothing/Aerodactyl/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/nothing/Aerodactyl/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Aerodactyl/proprietary/system_ext/etc/sysconfig/com.mediatek.ims.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.mediatek.ims.config.xml \
-    vendor/nothing/Aerodactyl/proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/androidx.camera.extensions.impl.advanced.jar \
     vendor/nothing/Aerodactyl/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6886/ParameterDB_ae.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6886/ParameterDB_ae.db \
     vendor/nothing/Aerodactyl/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6886/ParameterDB_af.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6886/ParameterDB_af.db \
     vendor/nothing/Aerodactyl/proprietary/vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6886/ParameterDB_awb.db:$(TARGET_COPY_OUT_VENDOR)/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6886/ParameterDB_awb.db \
