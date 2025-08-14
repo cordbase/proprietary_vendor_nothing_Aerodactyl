@@ -162,11 +162,6 @@
     <EccEntry Ecc="191" Category="0" Condition="2" Plmn="520 05"/>
     <EccEntry Ecc="191" Category="0" Condition="2" Plmn="520 18"/>
     <EccEntry Ecc="191" Category="0" Condition="2" Plmn="520 47"/>
-	
-    <!-- Add for Egypt ECC -->
-    <EccEntry Ecc="122" Category="1" Condition="2" Plmn="602 FFF"/>
-    <EccEntry Ecc="123" Category="2" Condition="2" Plmn="602 FFF"/>
-    <EccEntry Ecc="180" Category="4" Condition="2" Plmn="602 FFF"/>
 
     <!-- Add for Claro/Colombia operator -->
     <EccEntry Ecc="123" Category="0" Condition="2" Plmn="732 101"/>
