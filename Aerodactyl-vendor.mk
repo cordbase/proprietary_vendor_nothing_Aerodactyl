@@ -250,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/init.insmod.mt6886.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6886.cfg \
-    vendor/nothing/Aerodactyl/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -444,7 +443,6 @@ PRODUCT_PACKAGES += \
     libMEOW_trace \
     libGLES_mali \
     android.hardware.audio@7.1-impl-mediatek \
-    android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     audio.primary.mediatek \
@@ -1222,7 +1220,6 @@ PRODUCT_PACKAGES += \
     conninfra_loader \
     fuelgauged \
     fuelgauged_nvram \
-    android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm-service.widevine \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.composer@3.1-service \
