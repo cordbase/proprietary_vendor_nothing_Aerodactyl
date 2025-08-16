@@ -486,10 +486,8 @@ PRODUCT_PACKAGES += \
     libaacvibrator \
     libaal_key \
     libaal_mtk \
-    libadpcmdec_mtk \
     libaedv \
     libalCFR \
-    libalacdec_mtk \
     libalsautils-v33 \
     libapmonitor_vendor \
     libappgamepq \
@@ -553,10 +551,6 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vpp_AIMEMC_plugin \
     libcodec2_vpp_AISR_plugin \
     libcodec2_vpp_mi_plugin \
@@ -613,7 +607,6 @@ PRODUCT_PACKAGES += \
     libmorpho_RapidEffect \
     libmorpho_RawDeepDenoise \
     libmouth_mask_detection.arcsoft \
-    libmp3dec_mtk \
     libmpbase \
     libmsbc_mtk \
     libmtk-ril \
