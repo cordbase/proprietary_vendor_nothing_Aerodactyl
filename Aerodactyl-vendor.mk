@@ -1240,7 +1240,6 @@ PRODUCT_PACKAGES += \
     vendor.noth.hardware.sensor.sensor_extension-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
-    init.insmod \
     ipsec_mon \
     lbs_hidl_service \
     mcDriverDaemon \
