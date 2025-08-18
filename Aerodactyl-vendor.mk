@@ -354,6 +354,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/smartpa_param/tfa98xx_voice.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/tfa98xx_voice.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
+    vendor/nothing/Aerodactyl/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
+    vendor/nothing/Aerodactyl/proprietary/vendor/etc/st54j_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf.txt \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
     vendor/nothing/Aerodactyl/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
@@ -406,7 +408,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
-    vendor/nothing/Aerodactyl/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/nothing/Aerodactyl/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
