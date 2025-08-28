@@ -199,4 +199,12 @@
     <EccEntry Ecc="123" Category="0" Condition="2" Plmn="218 90"/>
     <EccEntry Ecc="124" Category="0" Condition="2" Plmn="218 90"/>
 
+    <!-- AERO15V-3248, add for SaudiArabia Zain begin-->
+    <EccEntry Ecc="994" Category="0" Condition="2" Plmn = "420 04" />
+    <EccEntry Ecc="996" Category="0" Condition="2" Plmn = "420 04" />
+    <EccEntry Ecc="997" Category="0" Condition="2" Plmn = "420 04" />
+    <EccEntry Ecc="998" Category="0" Condition="2" Plmn = "420 04" />
+    <EccEntry Ecc="999" Category="0" Condition="2" Plmn = "420 04" />
+    <!-- AERO15V-3248, add for SaudiArabia Zain End-->
+
 </EccTable>
